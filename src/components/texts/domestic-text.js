@@ -13,14 +13,14 @@ export function DomesticText(){
                             </Card.Title>
                             <Card.Img
                                 variant="top"
-                                src={"/vnutrennaa.jpg"}
+                                src={"vnutrennaa.jpg"}
                                 alt="Внутренняя 1"
                                 className="mb-4"
                                 style={{ maxHeight: '300px', objectFit: 'cover' }}
                             />
                             <Card.Img
                                 variant="top"
-                                src={"/vnutrennaa1.jpg"}
+                                src={"vnutrennaa1.jpg"}
                                 alt="Внутренняя 2"
                                 className="mb-4"
                                 style={{ maxHeight: '300px', objectFit: 'cover' }}

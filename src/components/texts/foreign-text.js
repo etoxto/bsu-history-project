@@ -13,7 +13,7 @@ export function ForeignText(){
                             </Card.Title>
                             <Card.Img
                                 variant="top"
-                                src={"/vneshnaa.jpg"}
+                                src={"vneshnaa.jpg"}
                                 alt="Внешняя"
                                 className="mb-4"
                                 style={{ maxHeight: '300px', objectFit: 'cover' }}

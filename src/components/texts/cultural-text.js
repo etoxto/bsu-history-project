@@ -19,14 +19,14 @@ export function CulturalText(){
                             </Card.Title>
                             <Card.Img
                                 variant="top"
-                                src={"/kyltura.jpg"}
+                                src={"kyltura.jpg"}
                                 alt="Архитектура 1"
                                 className="mb-4"
                                 style={{ maxHeight: '300px', objectFit: 'cover' }}
                             />
                             <Card.Img
                                 variant="top"
-                                src={"/kyltura2_1.jpg"}
+                                src={"kyltura2_1.jpg"}
                                 alt="Архитектура 2"
                                 className="mb-4"
                                 style={{ maxHeight: '300px', objectFit: 'cover' }}
@@ -60,7 +60,7 @@ export function CulturalText(){
                             </Card.Title>
                             <Card.Img
                                 variant="top"
-                                src={"/kyltura2.png"}
+                                src={"kyltura2.png"}
                                 alt="Герб"
                                 className="mb-4"
                                 style={{ maxHeight: '300px', objectFit: 'cover' }}

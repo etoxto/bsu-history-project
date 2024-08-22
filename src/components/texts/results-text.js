@@ -13,7 +13,7 @@ export function ResultsText(){
                             </Card.Title>
                             <Card.Img
                                 variant="top"
-                                src={"/itogi.jpg"}
+                                src={"itogi.jpg"}
                                 alt="Итоги"
                                 className="mb-4"
                                 style={{ maxHeight: '300px', objectFit: 'cover' }}

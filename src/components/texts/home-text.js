@@ -13,7 +13,7 @@ export function HomeText(){
                             </Card.Title>
                             <Card.Img
                                 variant="top"
-                                src={"/ivan-3.webp"}
+                                src={"ivan-3.webp"}
                                 alt="Иван III Великий"
                                 className="mb-4"
                                 style={{ maxHeight: '300px', objectFit: 'cover' }}

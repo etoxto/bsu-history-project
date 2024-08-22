@@ -13,7 +13,7 @@ export function ChurchText(){
                             </Card.Title>
                             <Card.Img
                                 variant="top"
-                                src={"/cerkow.jpg"}
+                                src={"cerkow.jpg"}
                                 alt="Церковь"
                                 className="mb-4"
                                 style={{ maxHeight: '300px', objectFit: 'cover' }}
