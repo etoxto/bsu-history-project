@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/bsu-history-project/static/css/main.9b60db92.css",
-    "main.js": "/bsu-history-project/static/js/main.d00934d8.js",
+    "main.js": "/bsu-history-project/static/js/main.e2dcbd4c.js",
     "static/js/787.cda612ba.chunk.js": "/bsu-history-project/static/js/787.cda612ba.chunk.js",
     "index.html": "/bsu-history-project/index.html",
     "main.9b60db92.css.map": "/bsu-history-project/static/css/main.9b60db92.css.map",
-    "main.d00934d8.js.map": "/bsu-history-project/static/js/main.d00934d8.js.map",
+    "main.e2dcbd4c.js.map": "/bsu-history-project/static/js/main.e2dcbd4c.js.map",
     "787.cda612ba.chunk.js.map": "/bsu-history-project/static/js/787.cda612ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9b60db92.css",
-    "static/js/main.d00934d8.js"
+    "static/js/main.e2dcbd4c.js"
   ]
 }
