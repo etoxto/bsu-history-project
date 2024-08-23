@@ -8,8 +8,9 @@ import ForeignPolicyPage from "./pages/foreign-policy-page";
 import CulturalPolicyPage from "./pages/cultural-policy-page";
 import ChurchPolicyPage from "./pages/church-policy-page";
 import ResultsPage from "./pages/results-page";
-import AboutPage from "./pages/about-page";
 import BioPage from "./pages/bio-page";
+import ManPage from "./pages/man-page";
+import WomanPage from "./pages/woman-page";
 
 function App() {
     const currThemes = {
@@ -28,7 +29,8 @@ function App() {
                     <Route path={"/cultural-policy"} element={<CulturalPolicyPage/>}/>
                     <Route path={"/church-policy"} element={<ChurchPolicyPage/>}/>
                     <Route path={"/results"} element={<ResultsPage/>}/>
-                    <Route path={"/about"} element={<AboutPage/>}/>
+                    <Route path={"/man"} element={<ManPage/>}/>
+                    <Route path={"/woman"} element={<WomanPage/>}/>
                     <Route path={"*"} element={<Navigate to={"/home"} replace/>}/>
                 </Routes>
             </SnackbarProvider>

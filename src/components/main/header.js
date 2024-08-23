@@ -3,7 +3,8 @@ import {CalculatorOutlined, DownOutlined, TableOutlined} from "@ant-design/icons
 import {Link} from "react-router-dom";
 import {useThemeSwitcher} from "react-css-theme-switcher";
 import {useState} from "react";
-import {Dropdown} from "semantic-ui-react";
+import {Dropdown} from "antd";
+import '../../styles/button-collor.css'
 
 const {Header} = Layout
 
@@ -20,14 +21,11 @@ export default function MyHeader({selectedMenuItem}){
 
     const employeeMenu = (
         <Menu>
-            <Menu.Item key="test1">
-                <Link to="/app/test1">Сотрудник 1</Link>
+            <Menu.Item key="man">
+                <Link to="/man">Языджан Арсений Артурович</Link>
             </Menu.Item>
-            <Menu.Item key="test2">
-                <Link to="/app/test2">Сотрудник 2</Link>
-            </Menu.Item>
-            <Menu.Item key="test3">
-                <Link to="/app/test3">Сотрудник 3</Link>
+            <Menu.Item key="woman">
+                <Link to="/woman">Сементеева Татьяна Михайловна</Link>
             </Menu.Item>
         </Menu>
     );
@@ -95,15 +93,6 @@ export default function MyHeader({selectedMenuItem}){
                 </Link>
             ),
             key: "results"
-        },
-        {
-            icon: <CalculatorOutlined/>,
-            label: (
-                <Link to={"/about"}>
-                    О нас
-                </Link>
-            ),
-            key: "about"
         },
         {
             icon: <CalculatorOutlined />,
