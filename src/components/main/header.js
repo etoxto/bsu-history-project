@@ -1,8 +1,9 @@
-import {Layout, Menu, Switch} from "antd";
-import {CalculatorOutlined, TableOutlined} from "@ant-design/icons";
+import {Button, Layout, Menu, Switch} from "antd";
+import {CalculatorOutlined, DownOutlined, TableOutlined} from "@ant-design/icons";
 import {Link} from "react-router-dom";
 import {useThemeSwitcher} from "react-css-theme-switcher";
 import {useState} from "react";
+import {Dropdown} from "semantic-ui-react";
 
 const {Header} = Layout
 
@@ -16,6 +17,20 @@ export default function MyHeader({selectedMenuItem}){
         setIsDarkMode(isChecked);
         switcher({ theme: isChecked ? themes.dark : themes.light });
     }
+
+    const employeeMenu = (
+        <Menu>
+            <Menu.Item key="test1">
+                <Link to="/app/test1">Сотрудник 1</Link>
+            </Menu.Item>
+            <Menu.Item key="test2">
+                <Link to="/app/test2">Сотрудник 2</Link>
+            </Menu.Item>
+            <Menu.Item key="test3">
+                <Link to="/app/test3">Сотрудник 3</Link>
+            </Menu.Item>
+        </Menu>
+    );
 
     const items = [
         {
@@ -89,6 +104,17 @@ export default function MyHeader({selectedMenuItem}){
                 </Link>
             ),
             key: "about"
+        },
+        {
+            icon: <CalculatorOutlined />,
+            label: (
+                <Dropdown overlay={employeeMenu} trigger={['click']}>
+                    <Button type="text" className="ant-dropdown-link" onClick={e => e.preventDefault()}>
+                        Сотрудники <DownOutlined />
+                    </Button>
+                </Dropdown>
+            ),
+            key: "employees"
         },
     ];
 
