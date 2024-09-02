@@ -11,7 +11,7 @@ export default function MyFooter(){
                     width: '100%'
                 }}
             >
-                History project by ganjamutant
+                History project by Arseniy & Tatyana
             </Footer>
         </>
     )
